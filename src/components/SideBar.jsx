@@ -76,7 +76,7 @@ const SideBar = () => {
     <div className='ml-5'>
  {SideBarDetails.map((item)=>(
    <div key={item.id} className="active:bg-slate-500 hover:bg-slate-500 cursor-pointer rounded-md font-medium text-slate-200">
-    <SideBarItems  key={item.id} title={item.title} icon={item.icon}/>
+    <SideBarItems  key={item.id} title={item.title} icon={item.icon} />
   </div>
  )
 )}

@@ -1,0 +1,39 @@
+.react-calendar {
+    width: 90%;
+    height:40%;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 10px;
+
+  }
+  
+  .react-calendar__month-view__days__day {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    
+    }
+
+    .react-calendar__tile{
+      padding: 10px ;
+    }
+
+  .highlight {
+    background-color: #869098;
+    color: white !important;
+  }
+
+  .react-calendar__navigation {
+    display: none; /* Hide default navigation */
+  }
+
+  button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #005bb5;
+  }
